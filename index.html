@@ -1,39 +1,50 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <div class="sub_container">
-                <h3>HOME</h3>
-                <div class="result"  id="home_result_screen">
-                    0
-                </div>    
-                <div class="change_score_btns">
-                    <button onclick="addOneForHome()" class="change_score_btn">+ 1</button>
-                    <button onclick="addTwoForHome()" class="change_score_btn">+2</button >
-                    <button onclick="addThreeForHome()" class="change_score_btn">+3</button >
-                </div>
-            </div>    
-            </div>
-            <div>
-              <div class="sub_container">
-                <h3>GUEST</h3>
-                <div class="result" id="guest_result_screen">
-                    0
-                </div> 
-                <div class="change_score_btns">
-                    <button onclick="addOneForGuest()" class="change_score_btn">+ 1</button >
-                    <button onclick="addTwoForGuest()" class="change_score_btn">+2</button >
-                    <button onclick="addThreeForGuest()" class="change_score_btn">+3</button >
-                </div>
-            </div>
-            </div>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="sub_container">
+          <h3>HOME</h3>
+          <div class="result" id="home_result_screen">0</div>
+          <div class="change_score_btns">
+            <button onclick="addOneForHome()" class="change_score_btn">
+              + 1
+            </button>
+            <button onclick="addTwoForHome()" class="change_score_btn">
+              +2
+            </button>
+            <button onclick="addThreeForHome()" class="change_score_btn">
+              +3
+            </button>
+          </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+      </div>
+      <div>
+        <div class="sub_container">
+          <h3>AWAY</h3>
+          <div class="result" id="guest_result_screen">0</div>
+          <div class="change_score_btns">
+            <button onclick="addOneForGuest()" class="change_score_btn">
+              + 1
+            </button>
+            <button onclick="addTwoForGuest()" class="change_score_btn">
+              +2
+            </button>
+            <button onclick="addThreeForGuest()" class="change_score_btn">
+              +3
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
